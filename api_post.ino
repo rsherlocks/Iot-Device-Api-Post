@@ -1,9 +1,8 @@
 #include <ArduinoJson.h>
-#include <ESP8266WiFi.h>
-#include <ESP8266HTTPClient.h>
 
-const char* ssid = "AndroidShaper";
-const char* password = "b@ngl@desh54321";
+
+const char* ssid = "";
+const char* password = "";
 
 void setup() {
   Serial.begin(115200);
